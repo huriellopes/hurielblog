@@ -8,6 +8,7 @@ permalink: /about/
 		<div class="row justify-content-md-center">
 			<div class="col-md-8 col-sm-8">
 				<h2>Sobre Mim</h2>
+				<p class="text-muted">https://huriellopes.github.io</p>
 			</div>
 		</div>
 	
