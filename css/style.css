@@ -1,0 +1,53 @@
+/* Definindo a fonte padrão */
+*,body,html,p { font-family: 'Roboto', sans-serif; font-weight: 400;}
+
+img[alt=''],img:not([alt]){border:3px dashed #dc3545}
+
+/* Menu background */
+.menu-color {background-color:#343a40; color: #FFFFFFFF; -webkit-box-shadow:0 3px 3px rgba(0,0,0,0.5);-moz-box-shadow:0 3px 3px rgba(0,0,0,0.5);box-shadow:0 3px 3px rgba(0,0,0,0.5)}
+
+/* Sobre */
+.about {margin-top: 5%;}
+.about h2 {font-size: 2em; color: #000000; margin-bottom: 2%;}
+.about p {font-size: .93em !important; color: #000000;}
+.linkedin{color:#343a40 !important;font-weight:500 !important;}
+.linkedin:hover,.linkedin:focus{cursor:pointer;color:#0976b4 !important;}
+.github{color:#343a40 !important; font-weight:500 !important;}.github:hover,.github:focus{cursor:pointer;color:#000 !important;}
+
+/* TCC */
+.tcc{text-decoration:none;list-style:none;color:#000;font-weight:700}
+.tcc:hover,.tcc:focus,.tcc:visited{text-decoration:none;color:#000000}
+
+/* Page Post */
+.post {margin-top: 5%;}
+.post h2 {font-size: 2em; color: #000000;}
+.post h4 {font-size: 1em; margin-top: -.5%; font-weight: 700; color: #000;}
+.post p {font-size: .9em; text-align: justify;}
+
+/* Posts */
+.posts {margin-top: 5%;}
+.posts h2 {font-size: 2.3em; color: #000000; }
+.posts h3 {font-size: 1.5em; margin-top: 3%; color: #000000;}
+.posts h3 a {list-style: none; text-decoration: none; color: #000000;}
+.posts h3 a:hover {color: #515151;}
+.posts h3 a:focus {color: #515151;}
+.posts h4 {font-size: 0.8em; margin-top: -.5%; font-weight: 700; color: #7c7c7c;}
+
+/* Icons */
+.github a{color:#000000;}
+
+@media screen and (max-width: 640px) {
+	/* Page Post */
+	.post {margin-top: 20%;}
+	.post h2 {font-size: 1.5em;}
+	.post h4 {font-size: .8em; margin-top: -.5%; font-weight: 700; color: #000; margin-left: .5%;}
+	.post p {font-size: .9em; text-align: justify;}
+
+	/* Posts */
+	.posts {margin-top: 15%;}
+	.posts h3 {font-size: 1.3em; margin-top: 2%;}
+	.posts h3 a {list-style: none; text-decoration: none; color: #000000;}
+	.posts h3 a:hover {color: #515151;}
+	.posts h3 a:focus {color: #515151;}
+	.posts h4 {font-size: 0.8em; margin-top: -.5%; font-weight: 700; color: #7c7c7c;}
+}
